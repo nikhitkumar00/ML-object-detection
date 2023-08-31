@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = load_model("keras_model.h5")
+model = load_model("mod.h5")
 
-with open("labels.txt", "r") as f:
+with open("list.txt", "r") as f:
     class_labels = f.read().splitlines()
 
 cap = cv2.VideoCapture(0)
