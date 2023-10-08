@@ -39,7 +39,6 @@ python object_detection.py
 - The script assumes that your Keras model takes input images of size `(224, 224, 3)` and outputs class probabilities.
 - The camera feed can be adjusted by modifying the `cap = cv2.VideoCapture(0)` line. Replace `0` with the index of your desired camera if you have multiple cameras connected.
 - Make sure your camera is accessible and working properly before running the script.
-- This is a basic example and might need modifications to fit specific use cases or models.
 
 ## Credits
 
